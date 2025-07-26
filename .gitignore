@@ -4,3 +4,4 @@ ffmpeg1/
 main.cpp
 opencl.cmake
 test_opencl.cpp
+ZGPU/encoder.cpp
