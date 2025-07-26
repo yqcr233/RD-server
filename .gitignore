@@ -1,0 +1,6 @@
+.vscode/
+build/
+ffmpeg1/
+main.cpp
+opencl.cmake
+test_opencl.cpp
