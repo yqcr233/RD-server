@@ -26,8 +26,8 @@ class DataQueue{
         std::mutex mutex;
 };
 
-template class DataQueue<std::shared_ptr<AVPacket>>;  // 之前已有的
-template class DataQueue<Microsoft::WRL::ComPtr<ID3D11Texture2D>>; // 新增
+extern template class DataQueue<std::shared_ptr<AVPacket>>;  // 之前已有的
+extern template class DataQueue<Microsoft::WRL::ComPtr<ID3D11Texture2D>>; // 新增
 
 #endif
 

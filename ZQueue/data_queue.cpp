@@ -59,3 +59,6 @@ void DataQueue<T>::close(){
     is_full.notify_all();
     is_empty.notify_all();
 }
+
+template class DataQueue<std::shared_ptr<AVPacket>>;  // 之前已有的
+template class DataQueue<Microsoft::WRL::ComPtr<ID3D11Texture2D>>; // 新增
